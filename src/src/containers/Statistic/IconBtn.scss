@@ -1,0 +1,22 @@
+
+.yicon-statistic-wrapper {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0 11px 16px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  display: flex;
+  &.disabled-code {
+    border: 1px solid #f00;
+  }
+  .statistic-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+}

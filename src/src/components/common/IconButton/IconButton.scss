@@ -1,0 +1,141 @@
+.icon-detail-item {
+  width:128px;
+  height: 141px;
+  margin: 16px 7px 0;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  position: relative;
+  >.info{
+    border: 1px solid transparent;
+    padding:11px;
+    width: 72px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 6px;
+    height: 111px;
+    /*background-color: #fff;*/
+    .icon {
+      font-size: 64px;
+      width: 72px;
+      height: 72px;
+      line-height: 72px;
+      text-align: center;
+      color:#555f6e;
+      cursor: pointer;
+      .iconfont {
+        font-size: 64px;
+        vertical-align: top;
+      }
+    }
+    .name{
+      color:#616161;
+      line-height: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      cursor: default;
+    }
+    .code{
+      color:#616161;
+      line-height: 16px;
+      margin: 0 -9px;
+    }
+    .cart-mask {
+      display: none;
+    }
+  }
+  >.tool{
+    position: absolute;
+    font-size: 0;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+    zoom: 1;
+    z-index: 1;
+    .tool-box {
+      font-size: 0;
+      border-radius: 4px;
+      width: 96px;
+      height: 135px;
+      overflow: hidden;
+      zoom: 1;
+    }
+    .copytip{
+      display: none;
+      position: absolute;
+      background-color: #fff8e5;
+      border:1px solid #ffe8a6;
+      padding:0 18px;
+      height: 34px;
+      line-height: 34px;
+      left: 0;
+      top:-50px;
+      font-size: 14px;
+      border-radius: 3px;
+      .iconfont{
+        font-size: 18px;
+      }
+    }
+    .copytip.show {
+      display: initial;
+    }
+    .tool-item{
+      display: none;
+      width: 48px;
+      height: 45px;
+      text-align: center;
+      line-height: 45px;
+      font-size:24px;
+      overflow: hidden;
+      color:#fff;
+      cursor: pointer;
+      float: left;
+    }
+    .tool-item:hover{
+      background-color: #008ed6;
+      transition: background .5s ease;
+    }
+  }
+}
+.icon-detail-item:hover,.icon-detail-item.active{
+  .info{
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    background-color: #fff;
+    .icon{
+      color:#008ed6;
+      display: inline-block;
+    }
+  }
+}
+.icon-detail-item:hover{
+  .tool .tool-box {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .tool-item{
+    display: inline-block;
+  }
+  .cart-mask {
+    width: 94px;
+    height: 134px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
+  }
+  .icon-cart {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 30px;
+  }
+}

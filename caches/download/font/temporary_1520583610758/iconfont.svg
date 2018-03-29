@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <font id="iconfont" horiz-adv-x="1024">
+      <font-face
+        font-family="iconfont"
+        units-per-em="1024"
+        ascent="896"
+        descent="128"
+      />
+      <missing-glyph horiz-adv-x="0"/>
+        <glyph
+          glyph-name="qunar-location_arrow"
+          unicode="&#xe006;"
+          horiz-adv-x="1024" d="M529-82Q524-93 513.5-99 503-105 491-105 486-105 481-104 467-100 458-89 449-78 449-63L449 321 65 321Q50 321 39 330 28 339 24.5 353.5 21 368 27 381 33 394 46 401L898 827Q907 832 917 832 935 832 947 819 957 810 959.5 796.5 962 783 955 770" />
+    </font>
+  </defs>
+</svg>

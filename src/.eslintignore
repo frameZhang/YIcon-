@@ -1,0 +1,7 @@
+bin/*
+caches/*
+logs/*
+node_modules/*
+static/*
+webpack/*
+server.babel.js

@@ -1,0 +1,35 @@
+{
+  "log": {
+    "appenders": [
+      {
+        "category": "normal",
+        "type": "dateFile",
+        "filename": "/Users/zhangxin/yiconl/logs/log",
+        "alwaysIncludePattern": true,
+        "pattern": "-yyyy-MM-dd.log"
+      }
+    ]
+  },
+  "model": {
+    "host": "127.0.0.1",
+    "username": "root",
+    "password": "root",
+    "port": "3306",
+    "database": "iconfont",
+    "dialect": "mysql"
+  },
+  "login": {
+    "ssoType": "cas",
+    "authUrl": "http://cas.xxx.xx/login?service={{service}}",
+    "tokenUrl": "http://cas.xxx.xx/serviceValidate?service={{service}}&ticket={{token}}",
+    "serviceUrl": "http://127.0.0.1:3000/api/login",
+    "adminList": ["zx"]
+  },
+  "source": {
+    "support": false,
+    "infoUrl": "",
+    "versionUrl": "",
+    "sourceUrl": "",
+    "cdn": ""
+  }
+}
